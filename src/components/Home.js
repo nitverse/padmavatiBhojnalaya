@@ -33,6 +33,11 @@ const Home = () => {
                 </div>
             )}
             {!loading && <Menulist className='text-green-300' meals={meals} />}
+             <footer className=' my-8 flex text-2l text-amber-400 justify-center items-center'>
+                 Copyright © 
+                     <a className={"text-green-300 underline "} href={"https://github.com/nitverse"}> 
+                         nitverse</a>
+             </footer>
         </div>
     );
 }
